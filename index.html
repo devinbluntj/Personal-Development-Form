@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Personal Development Form
+            </h1>
+            <p class="appreciation">
+                Thank you for taking the time view this form.
+            </p>
+        </header>
+        <section>
+            <form method="POST">
+                <div class="form-entry">
+                    <div class="labels">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-input">
+                        <input id="name" type="text" class="input" name="name" placeholder="Enter your name">
+                    </div>
+                </div>
+                <div class="form-entry">
+                    <div class="labels">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-input">
+                        <input id="email" type="text" class="input" name="email" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="form-entry">
+                    <div class="labels">
+                        <label for="age">Age (optional)</label>
+                    </div>
+                    <div class="form-input">
+                        <input id="age" type="number" class="input" name="age" placeholder="Enter your age">
+                    </div>
+                </div>
+                <div class="form-entry">
+                    <div class="labels">
+                        <label for="skills">What is your best personal development skills?</label>
+                    </div>
+                    <div class="form-input">
+                        <select class="dropdown" name="skills">
+                            <option value="option-select" selected>Select an option</option>
+                            <option value="communication">Communication</option>
+                            <option value="self-confidence">Self-Confidence</option>
+                            <option value="accountability">Accountability</option>
+                            <option value="integrity">Integrity</option>
+                            <option value="organization">Organization</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-entry">
+                    <div class="labels">
+                        <label for="recommend">Would you recommend Personal Development to a friend?</label>
+                    </div>
+                    <div class="form-input">
+                        <ul style="list-style: none;">
+                        <li class="radio">
+                            <input type="radio" id="definitely" name="recommendation" value="definitely" class="user-select">
+                            <label for="definitely">Definitely</label>
+                        </li>
+                        <li class="radio">
+                            <input type="radio" id="maybe" name="recommendation" value="maybe" class="user-select">
+                            <label for="maybe">Maybe</label>
+                        </li>
+                        <li class="radio">
+                            <input type="radio" id="not-sure" name="recommendation" value="not-sure" class="user-select">
+                            <label for="not-sure">Not Sure</label>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="form-entry">
+                    <div class="labels">
+                        <label for="preference">What do you like most about your current ability?</label>
+                    </div>
+                    <div class="form-input">
+                        <select class="dropdown" name="preference">
+                            <option value="option-select" selected>Select an option</option>
+                            <option value="honesty">Honesty</option>
+                            <option value="straight-forward">Straight Forward</option>
+                            <option value="learnable">Learnable</option>
+                            <option value="seriousness">Seriousness</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-entry">
+                    <div class="labels">
+                        <labels for="improvements">
+                            Which areas of my life would I like to improve?
+                        </labels>
+                    </div>
+                    <form class="form-input">
+                        <ul style="list-style: none;">
+                        <li class="radio">
+                            <input id="dating" type="checkbox" name="area-of-improvement" value="dating" class="user-select">
+                            <label for="dating">Dating Life</label>
+                        </li>
+                        <li class="radio">
+                            <input id="confidence" type="checkbox" name="area-of-improvement" value="confidence" class="user-select">
+                            <label for="confidence">Confidence</label>
+                        </li>
+                        <li class="radio">
+                            <input id="discipline" type="checkbox" name="area-of-improvement" value="discipline" class="user-select">
+                            <label for="discipline">Discipline</label>
+                        </li>
+                        <li class="radio">
+                            <input id="self-control" type="checkbox" name="area-of-improvement" value="self-control" class="user-select">
+                            <label for="self-control">Self Control</label>
+                        </li>
+                        </ul>
+                        <div class="form-entry">
+                            <div class="labels">
+                                <label for="wish">
+                                    What do you wish to achieve from this personal development journey?
+                                </label>
+                            </div>
+                            <div class="form-control">
+                                <textarea id="wish" class="input" style="height: 50px;resize:vertical;font-family: Open Sans Condensed;" 
+                                name="event-details" cols="1" rows="1"></textarea>
+                            </div>
+                        </div>
+                        <button type="button">Submit</button>
+                    </form>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
